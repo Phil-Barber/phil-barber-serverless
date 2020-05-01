@@ -1,3 +1,5 @@
+org: philbarber93
+app: contact-form-api-app
 service: contact-form-api
 
 custom:
@@ -5,7 +7,7 @@ custom:
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   stage: ${self:custom.secrets.NODE_ENV}
   region: us-east-1
   environment: 

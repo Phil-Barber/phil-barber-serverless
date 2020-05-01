@@ -9,7 +9,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   stage: ${self:custom.secrets.NODE_ENV}
-  region: us-east-1
+  region: eu-west-2
   environment: 
     NODE_ENV: ${self:custom.secrets.NODE_ENV}
     EMAIL: ${self:custom.secrets.EMAIL}
